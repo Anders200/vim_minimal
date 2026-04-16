@@ -1,0 +1,38 @@
+" --- Basics ---
+set nocompatible
+syntax on
+set number
+set relativenumber
+set cursorline
+set showmatch
+
+" --- Tabs & indentation ---
+set tabstop=4
+set shiftwidth=4
+set expandtab
+set smartindent
+
+" --- Search ---
+set ignorecase
+set smartcase
+set incsearch
+set hlsearch
+
+" --- UI ---
+set wildmenu
+set scrolloff=8
+set nowrap
+
+" --- Clipboard (may or may not work on HPC) ---
+set clipboard=unnamedplus
+
+" --- Better splits ---
+set splitright
+set splitbelow
+
+" --- Keybindings ---
+nnoremap <C-s> :w<CR>
+nnoremap <C-q> :q<CR>
+
+" --- Fast escape ---
+inoremap jk <Esc>
